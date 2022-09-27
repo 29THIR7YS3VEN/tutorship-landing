@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url('../images/bg.png');
+    background-position: top;
+    font-family: 'Inter', sans-serif;
+    background-position-x: center;
+    background-size: cover;
+    padding: 0px 200px;
+}
+header{
+    text-align: center;
+    padding: 8px 0px 0px 20px;
+}
+h1{
+    font-size: 35px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px #FF1616;
+    font-weight: 700;
+}
+.logo-container{
+    width: 100%;
+    padding: 0px 60px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 70px;
+    height: auto
+}
+.block{
+    padding: 30px 0px;
+}
+h2{
+    font-size: 35px;
+    color: #FF1616;
+    text-shadow: 1px 1px 2px #000000;
+}
+.paragraph{
+    margin: 20px 0px;
+    color: grey;
+    font-weight: 200;
+}
+.ics-logo{
+    width: 100px;
+    height: 100px;
+}
+.block{
+    display: flex;
+}
+button{
+    padding: 20px;
+    background-color: #004AAD;
+    color: white;
+    border-radius: 50px;
+    border: white;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#FF1616;
+    border:#FF1616;
+    box-shadow: 1px 1px 4px #000000;
+}
+#instructor{
+    border-radius: 50%;
+    margin: 10px 0px;
+    width: 300px;
+    height: 300px;
+}
+#bio-container{
+    padding: 20px;
+}
+.fa-brands{
+    font-size: 40px;
+    margin: 5px 5px 5px 0px;
+}
+footer{
+    box-sizing:border-box ;
+    margin: 100px -200px 0px -200px;
+    background-color: #004AAD;
+    height: 200px;
+    padding: 20px 200px;
+}
+ul{
+    margin-left: 20px;
+}
+li{
+    margin: 5px 0px;
+}
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+}
+.tg td{
+    border-color: transparent;
+    border-style:solid;
+    border-width:1px;
+    font-size: 18px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{
+    border-color: transparent;
+    border-style:solid;
+    border-width:1px;
+    font-size: 18px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-0lax{
+    text-align:left;
+    vertical-align:top;
+}
+#form{
+    background-color: #004AAD;
+    padding: 20px;
+    color: white;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 0px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default*/
+  .panel {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+  }
+  #number{
+    width: 100px;
+  }
+  input{
+    padding: 5px 1px;
+    margin: 5px 0px;
+    font-size: 15px;
+  }
+  select{
+    padding: 5px 1px;
+    margin: 0px 2px;
+    font-size: 15px;
+
+  }
+  label{
+    font-size: 20px;
+  }
+  .shorter{
+    width: 130px;
+  }
+  .submitBtn{
+    padding: 20px;
+  }
+  .instructor-info{
+    display: flex;
+  }
+
+  @media only screen 
+   and (max-width : 400px) {
+   body{
+    box-sizing: border-box;
+    padding: 30px 25px 0px 25px;
+    max-width: 105vw;
+   }
+   button{
+    margin: 10px 0px;
+   }
+   .instructor-info{
+    display: block;
+   }
+}
